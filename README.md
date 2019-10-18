@@ -1,2 +1,2 @@
 # README #
-We are going to make develop this projrct under CSE327 course
+We are going to develop this projrct under CSE327 course
