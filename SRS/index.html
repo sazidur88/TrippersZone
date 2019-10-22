@@ -321,8 +321,7 @@
 						</tr>
 						<tr>
 							<td>House Owner</td>
-							<td>Teacher will register, login, manage classes
-								and mange assignment and view student’s information.</td>
+							<td></td>
 						</tr>
 						<tr>
 							<td>Renter</td>
@@ -925,10 +924,10 @@
 							<td>1) System will show the details of the house and contact information of house owner.  </td>
 						</tr>						
 					</table>
-				  </br>
-					<p>Exception:</P>
-					</br>
-					<p>1) Server or internet connection is down so system can not redirect to the desired page. </p>
+				  	</br>
+						<p>Exception:</P>
+						</br>
+						<p>1) Server or internet connection is down so system can not redirect to the desired page. </p>
 				</br>
 
 
@@ -949,7 +948,7 @@
 							<td>Primary</td>
 						</tr>
 					</table>
-				  </br>
+				  	</br>
 					<p>Typical course of events: </p></br>
 					<table class="dyn">
 						<tr>
@@ -962,9 +961,9 @@
 						</tr>										
 					</table>
 					</br>
-					<p>Exception:</P>
-					</br>
-					<p>1) System will not take the input if the range is not valid. </p>
+						<p>Exception:</P>
+						</br>
+						<p>1) System will not take the input if the range is not valid. </p>
 			  	</br>
 
 
@@ -997,53 +996,50 @@
 						</tr>										
 					</table>
 					</br>
-					<p>Exception:</P>
-					</br>
-					<p>1) User can not go to the next page without completing this step. </p>
+						<p>Exception:</P>
+						</br>
+						<p>1) User can not go to the next page without completing this step. </p>
 			  	</br>	
 
 
-			  	<h3> Use Case (Booking Request)</h3></br>
-					<p> Booking Request</p></br>
-					<table class="simp">
-						<tr>
-							<th>Name</th>
-							<th>Booking Request</th>
-						</tr>
-						<tr>
-							<td>Actors</td>
-							<td>User(Renter,Owner)</td>
-						</tr>
-						<tr>
-							<td>Type</td>
-							<td>Primary</td>
-						</tr>
-					</table>
-				  </br>
+			  	<h3> Use Case (Confirmation)</h3></br>
+					<p> Confirmation</p></br>
+						<table class="simp">
+							<tr>
+								<th>Name</th>
+								<th>Confirmation</th>
+							</tr>
+							<tr>
+								<td>Actors</td>
+								<td>User(Renter,Owner)</td>
+							</tr>
+							<tr>
+								<td>Type</td>
+								<td>Primary</td>
+							</tr>
+						</table>
+				  	</br>
 					<p>Typical course of events: </p></br>
-					<table class="dyn">
-						<tr>
-							<th>Actor Action</th>
-							<th>System Response</th>
-						</tr>
-						<tr>
-							<td>1) Renter will send a request to book that particualr house for him on a selected day. </td>
-							<td>1) System will ask for a confirmation to do this job. </td>
-											
-						</tr>	
-						<tr>
-							<td>1) Owner will see a request on his dashboard that contains the detals of the request from the renter. </td>	
-						</tr>									
+						<table class="dyn">
+							<tr>
+								<th>Actor Action</th>
+								<th>System Response</th>
+							</tr>
+							<tr>
+								<td>1) Renter will click on the confirmation button. </td>
+								<td>1) System will send a accomodation request to the house owner. </td>
+												
+							</tr>	
+							<tr>
+								<td>1) Owner will confirm or deny the request </td>	
+								<td>System will send a message to the user about owners reply</td>
+							</tr>									
 					</table>
 					</br>
-					<p>Exception:</P>
-					</br>
-					<p>1) User can not go to the next page without completing this step. </p>
+						<p>Exception:</P>
+						</br>
+						<p>1) If the confirmation button is not pressed the request will not be sent. </p>
 			  	</br>			
-
-
-
-
 
 			</br>
 
