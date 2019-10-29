@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Database Design</title>
+	<link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+	<link href="assets/css/all.css" rel="stylesheet" />
+	
+</head>
+
+<body>
+	<div id="headerBar">
+		<h1><a href="SDS_Cover.html"><i id="logo" class="fas fa-home"></i> TrippersZone </a></h1>
+		
+	</div>
+   	<div class="container">
+      <div class="col-md-4" style="text-align:center;">
+        <div id="sideBar">
+	        <ul>
+	          <li><a href="introduction.html">Introduction</a></li>
+	          <li><a href="architecture.html">Architectural Pattern</a></li>
+	          <li><a href="designcomponent.html">Design Component </a></li>
+	          <li><a href="classdesign.html">Class Design</a></li>
+	          <li><a href="databasedesign.html">Database Design</a></li>
+	          <li><a href="api.html">API List</a></li>
+	          <li><a href="SDS_Cover.html">Team Members</a></li>
+	         </ul>
+       	</div>
+    	</div>
+    	<div id="content" class="col-md-8">
+		
+    		<h2> 5.0 Database Design </h2>
+			<h3>5.1 Approach</h3>
+			<p> We will use MySQL as our database software. It will contain tables to narrate different 
+			categories of data and will also recite connections and dependencies between each table.</p>
+				
+			<h3>5.2 Design </h3>
+			<div id="paragraph" style="text-align: center">
+				<img src="assets/img/erdiagram.png" width="820" height="750" alt="ER Diagram" >
+				<b>Figure 5.2.1: E-R Diagram</b>
+			</div>
+			<h3>5.3 Details of each table</h3>
+			
+			<div id="paragraph"> 
+				<b> Table name: Renter </b>
+				<br>Attributes:
+				
+				<ul>
+					<li> R.Name - string</li>
+					<li> Phone Number - int </li>
+					<li> R_ID - int </li>
+				</ul>
+			</div>
+			<br>
+			<div id="paragraph"> 
+				<b> Table name: House Owner </b>
+				<br>Attributes:
+			
+				<ul>
+					<li> H.O.Name - string</li>
+					<li> Phone Number - int </li>
+					<li> H.O_ID - int </li>	
+				</ul>
+			</div>
+			<br>	
+			
+			<div id="paragraph"> 
+				<b> Table name: House Info </b>
+				<br>Attributes:
+				
+				<ul>
+					<li> House Location - string </li>
+					<li> House Vacancy - string </li>
+					<li> Update Vacancy- string </li>
+				</ul>
+			</div>
+			<br>
+
+			<div id="paragraph">			
+				<b> Table name: Price Range </b>
+				<br>Attributes:
+				
+				<ul>
+					<li> Maximum Price - double </li>
+					<li> Minimum Price - double </li>	
+				</ul>
+			</div>
+			<br>
+			<div id="paragraph">			
+				<b> Table name: Search House </b>
+				<br>Attributes:
+				
+				<ul>
+					<li> Enter Destination - string </li>
+					<li> Available House - string </li>		
+				</ul>
+			</div>
+			<br>
+			<div id="paragraph">			
+				<b> Table name: ReuquestForRent </b>
+				<br>Attributes:
+				
+				<ul>
+					<li> Book House - string </li>
+					<li> Booking Request - string </li>
+					<li> Confirmation - string </li>			
+				</ul>
+			</div>
+			<br>
+			<div id="paragraph">			
+				<b> Table name: Admin </b>
+				<br>Attributes:
+				
+				<ul>
+					<li> Create User - string </li>
+					<li> Delete User - string </li>
+				</ul>
+			</div>
+    	</div>
+    </div>
+
+</body>
+</html> 
