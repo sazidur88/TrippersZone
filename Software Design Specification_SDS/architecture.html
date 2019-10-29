@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Introduction</title>
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/all.css" rel="stylesheet" />
+  
+</head>
+
+<body>
+  <div id="headerBar">
+    <h1><a href="SDS_Cover.html"><i id="logo" class="fa fa-home"></i> TrippersZone </a></h1> 
+    
+  </div>
+   <div class="container">
+      <div class="col-md-4" style="text-align:center;">
+        <div id="sideBar">
+        <ul>
+          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="architecture.html">Architectural Pattern</a></li>
+          <li><a href="designcomponent.html">Design Component </a></li>
+          <li><a href="classdesign.html">Class Design</a></li>
+          <li><a href="databasedesign.html">Database Design</a></li>
+          <li><a href="api.html">API List</a></li>
+          <li><a href="SDS_Cover.html">Team Members</a></li>
+       </div>
+      </div>
+      <div id="content" class="col-md-8">
+    
+      <h2>2.0 Architectural Pattern</h2>
+        <h3>2.1 Approach</h3>
+      <div id="paragraph">
+        The system is developed following waterfall model life cycle. The steps are 
+        requirement analysis,design, implementation and unit testing, integration and 
+        system testing and lastly maintenance. The system will be developed under super 
+        vision and rigorous testing to avoid bugs and meet the desired result.
+      </div>
+      
+    <h3>2.2 Diagram</h3>
+      <div id="content" >
+      <div id="paragraph" style="text-align: center">
+        <img src="assets/img/waterfallmodel.jpg" width="800" height="500">
+        <br> <b>Figure 2.2: Work Flow Diagram </b>
+      </div>
+      </div>
+     <h3>2.2.1 Design Diagram</h3>
+       <div id="paragraph">
+         It has a common database for android app and website that can be accessed through server remotely to search, view and update.
+         <br><br>
+         <div style="text-align: center">
+           <img src="assets/img/Diagram.png" width="800" height="600">
+           <br> <b>Figure 2.2.1: Design Diagram </b>
+         </div>
+       </div>
+       
+     <h3> 2.2.2 Design Pattern </h3>
+      <div id="paragraph">
+      
+        We are using MVC (MODEL-VIEW-CONTROLLER) design pattern provided by Django framework. MVC helps in avoiding mixture of code from different classes designed.
+        <br>
+        <br>
+        • The model component- Handles the data and data flow of the system and performs various operations on data.
+        <br>
+        • The view component- This component is responsible for how the data is represented to the user and how they interact with the data.
+        <br>
+        • The controller component- Manages user interaction and passes these interaction to the view and the model.
+        <br>
+        <br>
+
+        There are various ways in which to visualize and interact with system data. Same data can be represented differently based on different scenarios. Also when we will need to change the view of any specific part of the system, changing the view will suffice rather we would have to change the whole thing along with data. This will also make code more manageable as the various components are separated and in the same time inter-connected to ensure the date flow, connectivity between the components and full functionality of the system.
+
+
+      </div>
+    </div>
+
+</body>
+</html> 
+
+      
